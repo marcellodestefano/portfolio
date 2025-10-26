@@ -1,0 +1,19 @@
+.star-rating {
+  font-size: 1rem; 
+}
+
+.star {
+  color: #e0e0e0; 
+
+}
+
+.star.filled {
+  color: #FFD700; 
+}
+
+@media (min-width: 768px) {
+    .star-rating {
+  font-size: 2rem; 
+}
+
+}

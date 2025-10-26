@@ -1,0 +1,133 @@
+.mystudies-container{
+
+    padding-top: 3vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-card-studies{
+    width: 90%;
+    margin-top: 2vh;
+
+}
+
+.my-title-studies{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #fefefe;
+    text-align: center;
+
+}
+.my-subtle-studies{
+    font-size: 1.5rem;
+    color: #949090;
+    text-align: center;
+
+}
+.my-img-studies{
+    background-color: #d4d1d1;
+    border-radius: 2vw;
+    margin-top: 0.5vh;
+}
+
+.my-text-studies{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: #fefefe;
+
+}
+.my-welcome-studies{
+    text-align: center;
+    color: #fefefe;
+    
+}
+
+.my-title-school{
+    margin-top: 1.5vh;
+    color :#fefefe;
+
+}
+.mylink-studies{
+    color :#fefefe;
+    font-weight: 500;
+    margin-bottom: 1vh;
+}
+
+.myli-studies .mylink-studies:hover{
+    background-color: #9b9999;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.myul-studies{
+    width: 100%;
+    justify-content: center;
+    
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.my-text-school{
+    color :#fefefe;
+
+}
+
+
+@media (min-width: 768px) {
+    .my-title-studies {
+        font-size: 4rem;
+        margin-top: 1.5vh;
+    }
+    .my-subtle-studies{
+        font-size: 2.5rem;
+    }
+    .my-text-studies{
+        font-size: 1.8rem;
+        
+    }
+    .my-welcome-studies{
+        text-align: center;
+        font-size: 2em;
+    }
+    .my-welcome-studies{
+        font-size: 6rem;
+        font-weight: bolder;
+    }
+    .my-card-studies{
+        width: 100%;
+
+    }
+    .my-img-studies{
+        width: 35vw;
+
+    }
+    .img-subtle-studies{
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 3vh;
+    }
+    .myul-studies{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .myli-studies{
+        display: inline;
+        font-size: 1.5rem;
+    
+    }
+    .my-title-school{
+        font-size: 2rem;
+
+    }
+    .my-text-school{
+        font-size: 1.5rem;
+    }
+
+
+}
