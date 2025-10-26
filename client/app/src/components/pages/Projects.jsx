@@ -1,3 +1,6 @@
+import React from 'react';
+import webproject from "../../img/webproject.png"
+
 export const Projects= ()=>{
     return (
         <div className="container">
@@ -15,7 +18,7 @@ export const Projects= ()=>{
                         <div className="card bg-dark mb-3 my-card-studies">
                             <div className="row g-0">
                                 <div className="col-md-4 d-flex">
-                                <img src="" className="img-fluid rounded-start" alt="web image" />
+                                <img src={webproject } className="img-fluid rounded-start" alt="web image" />
                                 </div>
                                 <div className="col-md-8 ">
                                 <div className="card-body">
