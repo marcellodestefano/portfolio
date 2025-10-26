@@ -50,7 +50,7 @@ export const Skills= ()=>{
                 <div className="card bg-dark mb-3 my-card-studies">
                     <div className="row g-0">
                         <div className="col-md-4 d-flex">
-                        <img src={web} className="img-fluid rounded-start" alt="epitech logo" />
+                        <img src={web} className="img-fluid rounded-start" alt="web image" />
                         </div>
                         <div className="col-md-8 ">
                         <div className="card-body">
@@ -78,7 +78,7 @@ export const Skills= ()=>{
                 <div className="card bg-dark mb-3 my-card-studies">
                     <div className="row g-0">
                         <div className="col-md-4 d-flex">
-                        <img src={oop} className="img-fluid rounded-start" alt="epitech logo" />
+                        <img src={oop} className="img-fluid rounded-start" alt="oop image" />
                         </div>
                         <div className="col-md-8 ">
                         <div className="card-body">
@@ -104,7 +104,7 @@ export const Skills= ()=>{
                 <div className="card bg-dark mb-3 my-card-studies">
                     <div className="row g-0">
                         <div className="col-md-4 d-flex">
-                        <img src={data} className="img-fluid rounded-start" alt="epitech logo" />
+                        <img src={data} className="img-fluid rounded-start" alt="data image" />
                         </div>
                         <div className="col-md-8 ">
                         <div className="card-body">

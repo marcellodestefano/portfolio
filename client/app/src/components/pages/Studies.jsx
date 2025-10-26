@@ -107,7 +107,7 @@ export const Studies= ()=>{
                                     <h5 className="card-title my-title-school">Toulouse School of Economics</h5>
                                     <p className="card-text my-text-school"><small>sept 2022 to june 2024</small></p>
                                     <p className="card-text my-text-school">
-                                        in sept 2022 I enrolled in TSE to learn more about Economics and Managment.
+                                        In september 2022, I enrolled in TSE to learn more about Economics and Managment.
                                         During this two years i studied Macroeconomics theories, Microeconomics,
                                         descriptive Statistics, inferential Statistics, Mathematics and the bases 
                                         of Data Analysis. 
