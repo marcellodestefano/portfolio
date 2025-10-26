@@ -44,10 +44,26 @@ export const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item myli">
+              <Link to="/about" className="nav-link mylink myli" onClick={() => setIsOpen(false)}>
+                Studies
+              </Link>
+            </li>
+            <li className="nav-item myli">
               <Link to="/projects" className="nav-link mylink" onClick={() => setIsOpen(false)}>
                 Projects
               </Link>
             </li>
+            <li className="nav-item myli">
+              <Link to="/about" className="nav-link mylink myli" onClick={() => setIsOpen(false)}>
+                Skills
+              </Link>
+            </li>
+            <li className="nav-item myli">
+              <Link to="/about" className="nav-link mylink myli" onClick={() => setIsOpen(false)}>
+                Work
+              </Link>
+            </li>
+            
             <li className="nav-item myli">
               <Link to="/contact" className="nav-link mylink" onClick={() => setIsOpen(false)}>
                 Contact

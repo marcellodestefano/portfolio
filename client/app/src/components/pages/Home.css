@@ -75,11 +75,11 @@
 
     }
     .my-img-home{
-    width: 35vw;
-    margin-left: 2vw;
+        width: 35vw;
+
     }
     .img-subtle-home{
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         margin-top: 3vh;
     }

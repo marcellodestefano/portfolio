@@ -6,12 +6,12 @@ import "./Footer.css"
 
 export  const Footer = () => {
   return (
-    <footer className="bg-dark text-light py-4 mt-auto">
+    <footer className="bg-dark text-light py-4">
       <div className="container">
         <div className="row align-items-center">
           
           
-          <div className="col-md-6 text-center text-md-start mb-md-0 my-text">
+          <div className="col-md-6 text-center text-md-start mb-md-0 my-text ">
             <p className="mb-2">
               <i>&copy; {new Date().getFullYear()} Marcello's Website</i>
             </p>
@@ -20,16 +20,21 @@ export  const Footer = () => {
             </p>
             <p className="mb-2"><i>marcello_destefano@hotmail.com</i></p>
             
-            
           </div>
 
           
-          <div className="col-md-6 text-center text-md-end">
+          <div className="col-md-6 text-center text-md-end mb-0">
             <Link to="/" className="text-light text-decoration-none me-3 " ><i className="my-links">Home</i></Link>
             <Link to="/about" className="text-light text-decoration-none me-3 " ><i className="my-links">About</i></Link>
+            <Link to="/about" className="text-light text-decoration-none me-3 " ><i className="my-links">Studies</i></Link>
             <Link to="/projects"className="text-light text-decoration-none me-3" ><i className="my-links">Projects</i></Link>
+            <div>
+              <Link to="/about" className="text-light text-decoration-none me-3 " ><i className="my-links">Skills</i></Link>
+            <Link to="/about" className="text-light text-decoration-none me-3 " ><i className="my-links">Work</i></Link>
             <Link to="/contact"className="text-light text-decoration-none me-3" ><i className="my-links">Contact</i></Link>
+            </div>
           </div>
+          
 
         </div>
       </div>
