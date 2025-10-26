@@ -1,0 +1,88 @@
+.myhome-container{
+
+    padding-top: 3vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-card-home{
+    width: 90%;
+
+}
+
+.my-title-home{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #fefefe;
+    text-align: center;
+
+}
+.my-subtle-home{
+    font-size: 1.5rem;
+    color: #949090;
+    text-align: center;
+
+}
+.my-img-home{
+    background-color: #d4d1d1;
+    border-radius: 2vw;
+    margin-top: 0.5vh;
+}
+
+.my-text-home{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: #fefefe;
+
+}
+.my-welcome-home{
+    text-align: center;
+    color: #fefefe;
+    
+}
+.my-welcome-text{
+    font-size: 3rem;
+    color: #fefefe;
+    margin-bottom: 4vh;
+
+}
+
+
+@media (min-width: 768px) {
+    .my-title-home {
+        font-size: 4rem;
+        margin-top: 1.5vh;
+    }
+    .my-subtle-home{
+        font-size: 2.5rem;
+    }
+    .my-text-home{
+        font-size: 1.8rem;
+        
+    }
+    .my-welcome-home{
+        text-align: center;
+        font-size: 2em;
+    }
+    .my-welcome-text{
+        font-size: 6rem;
+        font-weight: bolder;
+    }
+    .my-card-home{
+        width: 100%;
+
+    }
+    .my-img-home{
+    width: 35vw;
+    margin-left: 2vw;
+    }
+    .img-subtle-home{
+        justify-content: center;
+        align-items: center;
+        margin-top: 3vh;
+    }
+
+
+}

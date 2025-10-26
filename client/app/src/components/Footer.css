@@ -1,0 +1,18 @@
+.my-text{
+    font-size: 0.8em;
+    color: #b6b2b2;
+}
+
+.my-links{
+    color: #b6b2b2;  
+}
+
+@media (min-width: 768px) {
+    .my-text{
+    font-size: 1em;
+    }
+    .my-links{
+    font-size: 1.3em;
+
+    }
+}

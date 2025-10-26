@@ -1,0 +1,41 @@
+
+.logo-size{
+    height: 5vh;
+    width: 25vh;
+}
+
+.my-btn-nav{
+    margin-right: 4vw;
+}
+
+nav{
+    align-items: center;
+    border-bottom-left-radius: 0.8vw;
+    border-bottom-right-radius: 0.8vw;
+    min-height: 8vh;
+    font-size: 1.4em;
+
+}
+.mytoggler{
+    color: #fefefe;
+}
+
+.mylink{
+    color :#fefefe;
+    font-weight: 500;
+}
+
+.myli .mylink:hover{
+    background-color: #9b9999;
+    color: black;
+    font-weight: bold;
+    
+}
+
+@media (min-width: 768px) {
+    nav{
+    font-size: 2em;
+}
+}
+
+

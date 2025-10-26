@@ -1,5 +1,18 @@
-.App {
-  background-color: #fefefe;
-  height: 100vh;
-  width: 100vw;
+.my_container {
+  background-color: #363535;
+    background:
+  linear-gradient(15deg, #363535 0 25%, transparent 25%),
+  linear-gradient(120deg, #272727 0 45%, transparent 45%),
+  linear-gradient(43deg, #2e2d2d 0 52%, transparent 52%),
+  linear-gradient(154deg, #414040 0 67%, transparent 60%),
+  linear-gradient(24deg, #383434 0 75%, transparent 75%),
+  linear-gradient(120deg, #181414 0 100%, transparent 100%);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 100vh;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+
 }
