@@ -19,6 +19,7 @@ export const Navbar = () => {
             src={logo}
             alt="Logo"
             className="logo-size d-inline-block align-text-top"
+            onClick={() => setIsOpen(false)}
           />
         </Link>
 
@@ -44,7 +45,7 @@ export const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item myli">
-              <Link to="/about" className="nav-link mylink myli" onClick={() => setIsOpen(false)}>
+              <Link to="/studies" className="nav-link mylink myli" onClick={() => setIsOpen(false)}>
                 Studies
               </Link>
             </li>
@@ -54,12 +55,12 @@ export const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item myli">
-              <Link to="/about" className="nav-link mylink myli" onClick={() => setIsOpen(false)}>
+              <Link to="/skills" className="nav-link mylink myli" onClick={() => setIsOpen(false)}>
                 Skills
               </Link>
             </li>
             <li className="nav-item myli">
-              <Link to="/about" className="nav-link mylink myli" onClick={() => setIsOpen(false)}>
+              <Link to="/work" className="nav-link mylink myli" onClick={() => setIsOpen(false)}>
                 Work
               </Link>
             </li>

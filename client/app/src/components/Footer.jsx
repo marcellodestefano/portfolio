@@ -26,11 +26,11 @@ export  const Footer = () => {
           <div className="col-md-6 text-center text-md-end mb-0">
             <Link to="/" className="text-light text-decoration-none me-3 " ><i className="my-links">Home</i></Link>
             <Link to="/about" className="text-light text-decoration-none me-3 " ><i className="my-links">About</i></Link>
-            <Link to="/about" className="text-light text-decoration-none me-3 " ><i className="my-links">Studies</i></Link>
+            <Link to="/studies" className="text-light text-decoration-none me-3 " ><i className="my-links">Studies</i></Link>
             <Link to="/projects"className="text-light text-decoration-none me-3" ><i className="my-links">Projects</i></Link>
             <div>
-              <Link to="/about" className="text-light text-decoration-none me-3 " ><i className="my-links">Skills</i></Link>
-            <Link to="/about" className="text-light text-decoration-none me-3 " ><i className="my-links">Work</i></Link>
+              <Link to="/skills" className="text-light text-decoration-none me-3 " ><i className="my-links">Skills</i></Link>
+            <Link to="/work" className="text-light text-decoration-none me-3 " ><i className="my-links">Work</i></Link>
             <Link to="/contact"className="text-light text-decoration-none me-3" ><i className="my-links">Contact</i></Link>
             </div>
           </div>
